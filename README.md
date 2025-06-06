@@ -7,10 +7,11 @@ cd /mnt/c/Users/isaac/Downloads
 ```
 ## 第三步:运行
 ```bash
-unzip nexus_visual_prompted.zip
-cd nexus_visual_prompted/scripts
-chmod +x run_nexus_tmux_20nodes.sh
-./run_nexus_tmux_20nodes.sh
+mkdir -p nexus4safe
+unzip nexus_4nodes_standard_package.zip -d nexus4safe
+cd nexus4safe/scripts
+chmod +x run_4node_tmux.sh
+./run_4node_tmux.sh
 ```
 ## 第四步:按照提示粘贴node id
 点击nexus 官网 add cli node生成20个
