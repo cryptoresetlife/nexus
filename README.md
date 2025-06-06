@@ -7,10 +7,10 @@ cd /mnt/c/Users/isaac/Downloads
 ```
 ## 第三步:运行
 ```bash
-unzip nexus_paged_package.zip
-cd nexus_paged_package/scripts
-chmod +x nexus_bootstrap_and_paginated.sh
-./nexus_bootstrap_and_paginated.sh
+unzip nexus_visual_prompted.zip
+cd nexus_visual_prompted/scripts
+chmod +x run_nexus_tmux_20nodes.sh
+./run_nexus_tmux_20nodes.sh
 ```
 ## 第四步:按照提示粘贴node id
 点击nexus 官网 add cli node生成20个
