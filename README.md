@@ -10,7 +10,6 @@ cd /mnt/c/Users/$(cmd.exe /c "echo %USERNAME%" | tr -d '\r')/Downloads
 ```
 ## 第三步:运行
 ```bash
-mkdir -p nexus4safe
 unzip deploy_nexus.zip -d nexus4safe
 cd nexus4safe
 chmod +x deploy_nexus.sh
