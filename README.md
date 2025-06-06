@@ -8,10 +8,10 @@ cd /mnt/c/Users/isaac/Downloads
 ## 第三步:运行
 ```bash
 mkdir -p nexus4safe
-unzip nexus_4nodes_standard_package.zip -d nexus4safe
+unzip install_nexus_cli_node_package.zip -d nexus4safe
 cd nexus4safe/scripts
-chmod +x run_4node_tmux.sh
-./run_4node_tmux.sh
+chmod +x install_nexus_cli_node.sh
+./install_nexus_cli_node.sh
 ```
 ## 第四步:按照提示粘贴node id
 点击nexus 官网 add cli node生成20个
