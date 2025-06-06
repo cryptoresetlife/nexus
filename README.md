@@ -3,9 +3,10 @@
 ## 准备：windows电脑下载ubuntu
 ## 第一步: 下载脚本包
 https://github.com/cryptoresetlife/nexus/blob/main/install_nexus_cli_node_package.zip
-## 第二步:打开ubuntu进入脚本所在目录（例如 Windows 下载目录）
+## 第二步:打开ubuntu进入脚本所在目录（Windows 下载目录）
 ```bash
-cd /mnt/c/Users/isaac/Downloads
+cd /mnt/c/Users/$(cmd.exe /c "echo %USERNAME%" | tr -d '\r')/Downloads
+
 ```
 ## 第三步:运行
 ```bash
