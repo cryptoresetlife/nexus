@@ -9,7 +9,7 @@ cd /mnt/c/Users/isaac/Downloads
 ```bash
 mkdir -p nexus4safe
 unzip install_nexus_cli_node_package.zip -d nexus4safe
-cd nexus4safe/scripts
+cd nexus4safe
 chmod +x install_nexus_cli_node.sh
 ./install_nexus_cli_node.sh
 ```
