@@ -1,6 +1,6 @@
 # nexus
 ## 第一步: 下载脚本包
-https://github.com/cryptoresetlife/nexus/blob/main/nexus_paged_package.zip
+
 ## 第二部:  进入脚本所在目录（例如 Windows 下载目录）
 ```bash
 cd /mnt/c/Users/isaac/Downloads
