@@ -10,10 +10,24 @@ cd /mnt/c/Users/$(cmd.exe /c "echo %USERNAME%" | tr -d '\r')/Downloads
 ```
 ## 第三步:运行
 ```bash
-unzip deploy_nexus.zip -d nexus4safe
-cd nexus4safe
+创建目录
+mkdir -p nexus4safe
+
+# 解压压缩包（注意路径用绝对路径）
+unzip /mnt/c/Users/isaac/Downloads/deploy_nexus.zip -d ~/nexus4safe
+
+# 进入解压后的目录
+cd ~/nexus4safe
+
+# 列出文件确认脚本是否存在
+ls -l
+
+# 给脚本添加执行权限
 chmod +x deploy_nexus.sh
+
+# 运行脚本
 ./deploy_nexus.sh
+
 ```
 ## 第四步:按照提示粘贴node id
 ### 点击nexus 官网 add cli node生成1个id
